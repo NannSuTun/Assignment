@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    width: 100%;
+    color: aqua;
+    background: linear-gradient(179.4deg, rgb(12, 20, 69) -16.9%, rgb(71, 30, 84) 119.9%);
+    font-size: 15px;
+    border-color: aquamarine;
+    top: 0px;
+    left: 0px;
+    border-style: solid;
+    border-right: .5px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 5px;
+
+}
+
+h2{
+    background: radial-gradient(circle at 12.3% 19.3%, rgb(85, 88, 218) 0%, rgb(95, 209, 249) 100.2%);
+    color: rgb(0, 255, 42);
+    text-align: center;
+    text-shadow: 5px gray;
+}
+
+.artists{
+    width: 100%;
+    min-height: 100vh;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items:center;
+    background: linear-gradient(180.3deg, rgb(221, 221, 221) 5.5%, rgb(110, 136, 161) 90.2%);
+  
+}
+
+.artist{
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 20px;
+}
+
+.artists img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+.artists .info{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: blue;
+}
+
